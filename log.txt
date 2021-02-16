@@ -1,0 +1,14 @@
+$ git log
+commit 69aca025f63010b6bb7449bd44e43550973058a1 (HEAD -> master)
+Author: Litxinowitz <shurlitvin@gmail.com>
+Date:   Tue Feb 16 12:49:35 2021 +0300
+
+    add status.txt
+
+commit 3795f225e0dcec61c4ae6aee0ac2e6b4519c3b84
+Author: Litxinowitz <shurlitvin@gmail.com>
+Date:   Tue Feb 16 12:42:33 2021 +0300
+
+    add .gitignore
+
+
