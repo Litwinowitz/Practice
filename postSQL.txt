@@ -1,0 +1,12 @@
+a)SELECT*FROM post ORDER BY created_at
+b)SELECT*FROM post WHERE created_at BETWEEN '2013-01-31'AND '2017-12-31'
+c)select*from post
+INNER JOIN users
+ON post.id=any(users.publications)
+WHERE users.name='Lain'
+ORDER BY created_at
+d)SELECT*FROM post WHERE id='2485'
+e)UPDATE post SET likes='1256' WHERE id='8462'
+f)SELECT*FROM post ORDER BY created_at LIMIT 10
+g)DELETE FROM post WHERE id='3214'
+h)INSERT INTO "post" ("id","title","text","photo_url","likes","created_at","modified_at") VALUES ('1940','ARGH!!!','This band is amazingly blasphemous!','Slayer.jpeg','666','2019-11-06','2019-11-06');
