@@ -1,16 +1,16 @@
-create table post(id int PRIMARY KEY,title varchar(30) NOT NULL,text varchar(2000) NOT NULL,photo_url varchar(200) NOT NULL,likes Integer DEFAULT 0,created_at VARCHAR(10),modified_at VARCHAR(10));
-INSERT INTO post VALUES ('4523','Happy Birthday!','Our family selebrating sister''s birthday.','58jjh.jpeg','201','2018-05-02','2018-05-02');
-INSERT INTO post VALUES ('8563','New album.','Just finished it. Release is next week. ','256.jpg','521','1983-01-05','1983-01-06');
-INSERT INTO post VALUES ('5695','Night Cologne','Cathedral looks wonderful in moonlight.','070619.jpeg','268','2019-06-07','2019-06-07');
-INSERT INTO post VALUES ('2569','I love...','I love Paris in the morning .','paris.jpeg','694','2020-02-04','2020-02-04');
-INSERT INTO post VALUES ('8462','Kioto','Magnificent view!','IMG869.jpg','823','2019-03-06','2019-03-06');
-INSERT INTO post VALUES ('8596','Meteors rain','Cepheids are really amazing','863145.jpeg','468','2018-08-17','2018-08-18');
-INSERT INTO post VALUES ('125','Alarm!!!','Zeppelin incoming!','IMG191215.jpeg','15','1915-12-19','1915-12-19');
-INSERT INTO post VALUES ('2485','Hurah!','Eva''s release today.','954.jpg','758','2021-03-08','2021-03-08');
-INSERT INTO post VALUES ('9521','Rhein','Oh,Rhien, du Rhien,mein liebe Rhein.','55gfg.jpeg','351','2017-04-05','2017-04-06');
-INSERT INTO post VALUES ('3214','Millenium is coming!!!','I''m so worried.','754.jpeg','548','1999-12-27','1999-12-28');
-INSERT INTO post VALUES ('2487','New artwork','Hope, you''ll like it )','IMG854.jpeg','394','2015-08-07','2015-08-08');
-INSERT INTO post VALUES ('596','Venezia','Gondolas,gondolas are everywhere!','86358.jpeg','268','2014-06-01','2014-06-01');
+create table post(id int PRIMARY KEY,creator int,title varchar(30) NOT NULL,text varchar(2000) NOT NULL,photo_url varchar(200) NOT NULL,likes Integer DEFAULT 0,created_at VARCHAR(10),modified_at VARCHAR(10));
+INSERT INTO post VALUES ('4523','000101','Happy Birthday!','Our family selebrating sister''s birthday.','58jjh.jpeg','201','2018-05-02','2018-05-02');
+INSERT INTO post VALUES ('8563','198319','New album.','Just finished it. Release is next week. ','256.jpg','521','1983-01-05','1983-01-06');
+INSERT INTO post VALUES ('5695','191418','Night Cologne','Cathedral looks wonderful in moonlight.','070619.jpeg','268','2019-06-07','2019-06-07');
+INSERT INTO post VALUES ('2569','197586','I love...','I love Paris in the morning .','paris.jpeg','694','2020-02-04','2020-02-04');
+INSERT INTO post VALUES ('8462','000101','Kioto','Magnificent view!','IMG869.jpg','823','2019-03-06','2019-03-06');
+INSERT INTO post VALUES ('8596','152635','Meteors rain','Cepheids are really amazing','863145.jpeg','468','2018-08-17','2018-08-18');
+INSERT INTO post VALUES ('125','191418','Alarm!!!','Zeppelin incoming!','IMG191215.jpeg','15','1915-12-19','1915-12-19');
+INSERT INTO post VALUES ('2485','152635','Hurah!','Eva''s release today.','954.jpg','758','2021-03-08','2021-03-08');
+INSERT INTO post VALUES ('9521','191418','Rhein','Oh,Rhien, du Rhien,mein liebe Rhein.','55gfg.jpeg','351','2017-04-05','2017-04-06');
+INSERT INTO post VALUES ('3214','189258','Millenium is coming!!!','I''m so worried.','754.jpeg','548','1999-12-27','1999-12-28');
+INSERT INTO post VALUES ('2487','152635','New artwork','Hope, you''ll like it )','IMG854.jpeg','394','2015-08-07','2015-08-08');
+INSERT INTO post VALUES ('596','197586','Venezia','Gondolas,gondolas are everywhere!','86358.jpeg','268','2014-06-01','2014-06-01');
 
 
 

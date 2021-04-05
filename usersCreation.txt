@@ -1,8 +1,8 @@
-CREATE TABLE users ("name" VARCHAR(20),"password" VARCHAR(30),"publications" INT[]);
-INSERT INTO users VALUES ('Lain','PresentTimesPresentDays','{4523,8462}');
-INSERT INTO users VALUES ('Maestro','GeniusPassword','{2569}');
-INSERT INTO users VALUES ('Kate','QWEASDZXC','{1256,8596,596}');
-INSERT INTO users VALUES ('Ludwig','Erika','{5695,125,9521');
-INSERT INTO users VALUES ('Unactive user','QWERTY','{}');
-INSERT INTO users VALUES ('Slayer oficial','RainingBlood','{8563}');
-INSERT INTO users VALUES ('Ditrich','LiliMarlene','{}');
+CREATE TABLE users ("name" VARCHAR(20),"password" VARCHAR(30),"usercode" INT PRIMARY KEY);
+INSERT INTO users VALUES ('Lain','PresentTimesPresentDays','000101');
+INSERT INTO users VALUES ('Maestro','GeniusPassword','197586');
+INSERT INTO users VALUES ('Kate','QWEASDZXC','152635');
+INSERT INTO users VALUES ('Ludwig','Erika','191418');
+INSERT INTO users VALUES ('Unactive user','QWERTY','876554');
+INSERT INTO users VALUES ('Slayer oficial','RainingBlood','198319');
+INSERT INTO users VALUES ('Ditrich','LiliMarlene','189258');
