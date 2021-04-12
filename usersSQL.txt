@@ -1,0 +1,4 @@
+a)INSERT INTO users ("name","password","publications") VALUES ('Lain','PresentTimesPresentDays','4523,8462');
+b)SELECT*FROM users WHERE name='Ludwig'AND password='Erika'
+c)SELECT name FROM users 
+where NULL=ALL(publications)
